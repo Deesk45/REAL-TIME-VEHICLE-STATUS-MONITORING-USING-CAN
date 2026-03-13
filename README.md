@@ -172,19 +172,19 @@ REAL_TIME_VEHICLE_STATUS_MONITORING
 The following results were captured during real-time hardware testing of the system.
 
 ---
-
 ## 🧠 Complete Multi-Node Hardware Setup (LPC2129 + CAN + Sensors)
-<img src="https://github.com/user-attachments/assets/d75fbf56-3d0c-40e0-896a-e142d146e0cd" width="450">
+<img src="https://github.com/user-attachments/assets/e8c23ea9-a884-4746-b79e-dfef7a1a4cf5" width="400">
 
 ---
 
 ## 💥 Airbag Detection & Indicator Status Display
-<img src="https://github.com/user-attachments/assets/fccd71b9-8d2d-4ee2-ac12-89ab2f929341" width="450">
+<img src="https://github.com/user-attachments/assets/f7ca3282-459b-4d12-b63a-5d60450af65e" width="400">
 
 ---
 
 ## ⛽ Fuel Level Monitoring & Indicator Display Output
-<img src="https://github.com/user-attachments/assets/360d5646-f891-4a27-b676-451517c88a8d" width="450">
+<img src="https://github.com/user-attachments/assets/feec9533-ada1-4064-80cc-a94b53ea9e55" width="400">
+
 
 ---
 
