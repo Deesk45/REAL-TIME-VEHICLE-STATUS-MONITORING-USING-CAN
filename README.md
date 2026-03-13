@@ -180,12 +180,15 @@ The following results were captured during real-time hardware testing of the sys
 ---
 
 ## 💥 Airbag Detection & Indicator Status Display
-<img src="images/airbag_indicator_display1.jpg" width="700">
+<img ![WhatsApp Image 2026-03-12 at 18 44 22](https://github.com/user-attachments/assets/fccd71b9-8d2d-4ee2-ac12-89ab2f929341)
+>
 
 ---
 
 ## ⛽ Fuel Level Monitoring & Indicator Display Output
-<img src="images/fuel_indicator_display2.jpg" width="700">
+<img 
+![WhatsApp Image 2026-03-12 at 18 44 23](https://github.com/user-attachments/assets/360d5646-f891-4a27-b676-451517c88a8d)
+>
 
 ---
 
