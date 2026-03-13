@@ -168,6 +168,25 @@ REAL_TIME_VEHICLE_STATUS_MONITORING
 8. All nodes operate in **real-time super-loop architecture**
 
 ---
+### 📸 Hardware & Real-Time Outputs  
+The following results were captured during real-time hardware testing of the system.
+
+---
+
+## 🧠 Complete Multi-Node Hardware Setup (LPC2129 + CAN + Sensors)
+<img src="images/hardware_setup.jpg" width="700">
+
+---
+
+## 💥 Airbag Detection & Indicator Status Display
+<img src="images/airbag_indicator_display1.jpg" width="700">
+
+---
+
+## ⛽ Fuel Level Monitoring & Indicator Display Output
+<img src="images/fuel_indicator_display2.jpg" width="700">
+
+---
 
 ## 🧠 Key Technical Concepts Demonstrated
 - CAN Protocol Bit Timing Calculation
