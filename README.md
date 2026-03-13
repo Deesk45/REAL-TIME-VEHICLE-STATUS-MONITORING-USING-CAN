@@ -73,7 +73,7 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 ## 📁 Project Folder Structure
 REAL_TIME_VEHICLE_STATUS_MONITORING
 │  
-├── can.c / can.h → CAN Driver (Init / TX / RX)
+├── can.c / can.h → CAN Driver (Init / TX / RX)  
 ├── can_defines.h → CAN Bit Timing & Register Macros  
 ├── indicator_generator.c → Interrupt based indicator command node  
 ├── indicator_node.c → Indicator receiver node logic  
