@@ -174,7 +174,8 @@ The following results were captured during real-time hardware testing of the sys
 ---
 
 ## 🧠 Complete Multi-Node Hardware Setup (LPC2129 + CAN + Sensors)
-<img src="images/hardware_setup.jpg" width="700">
+![333](https://github.com/user-attachments/assets/d75fbf56-3d0c-40e0-896a-e142d146e0cd)
+
 
 ---
 
