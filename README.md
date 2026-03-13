@@ -72,23 +72,21 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 
 ## 📁 Project Folder Structure
 REAL_TIME_VEHICLE_STATUS_MONITORING
-│
+│  
 ├── can.c / can.h → CAN Driver (Init / TX / RX)
-├── can_defines.h → CAN Bit Timing & Register Macros
-├── indicator_generator.c → Interrupt based indicator command node
-├── indicator_node.c → Indicator receiver node logic
-├── indicator.c → LED running pattern driver
-├── fuel_node.c → ADC fuel monitoring CAN transmitter
-├── fuel.c / fuel.h → ADC driver
-├── i2c.c / i2c.h → I2C driver
-├── mma.c / mma7660.h → Accelerometer driver
-├── mma_function.c → Airbag trigger logic
-├── lcd.c / lcd.h → LCD driver
-├── delay.c / delay.h → Delay utilities
-├── types.h → Custom data types
+├── can_defines.h → CAN Bit Timing & Register Macros  
+├── indicator_generator.c → Interrupt based indicator command node  
+├── indicator_node.c → Indicator receiver node logic  
+├── indicator.c → LED running pattern driver  
+├── fuel_node.c → ADC fuel monitoring CAN transmitter  
+├── fuel.c / fuel.h → ADC driver  
+├── i2c.c / i2c.h → I2C driver  
+├── mma.c / mma7660.h → Accelerometer driver  
+├── mma_function.c → Airbag trigger logic  
+├── lcd.c / lcd.h → LCD driver  
+├── delay.c / delay.h → Delay utilities  
+├── types.h → Custom data types  
 └── README.md → Project documentation
-
-
 
 
 ---
