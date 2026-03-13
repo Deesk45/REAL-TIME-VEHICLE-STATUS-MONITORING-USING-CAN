@@ -1,0 +1,23 @@
+#define FOSC 12000000//12 MHZ
+#define CCLK (FOSC*5)//60 MHZ CPU CLK
+#define PCLK (CCLK/4)//15 MHZ  PERIPHERAL CLK
+
+#define ADC_CLK 3000000// <=4.5 MHZ
+#define CLK_DIV ((PCLK/ADC_CLK) - 1)
+
+//ADCR CONFIGURATION
+
+#define CLK_DIV_BITS 8 // 8 - 15 
+#define PDN_BIT      21// 21
+#define CONV_START_BITS 24	//24 -26
+
+//ADDR CONFIGURATION
+
+#define RESULT_BITS 6 //6 - 15 | 10BITS
+#define DONE_BIT    31 //31
+
+ // PINSEL1 CONFIGURATION
+#define AIN0_0_27 0x00400000
+#define AIN1_0_28 0x01000000
+//#define AIN2_0_29 0x04000000
+//#define AIN3_0_30 0x10000000	 		
