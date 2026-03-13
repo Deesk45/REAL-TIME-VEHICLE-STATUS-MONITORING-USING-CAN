@@ -70,6 +70,70 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 
 ---
 
+---
+
+## 🔌 Pin Configuration
+
+### 5.1 CAN Interface Pin Configuration
+| Signal | LPC2129 Pin | Description |
+|--------|-------------|-------------|
+| RD1 (CAN RX) | P0.25 | CAN Receive input from transceiver |
+| TD1 (CAN TX) | P0.24 | CAN Transmit output to transceiver |
+
+---
+
+### 5.2 Indicator LED Array Configuration
+| Indicator LED | LPC2129 Pin | Description |
+|---------------|-------------|-------------|
+| LED0 | P0.0 | Running pattern LED |
+| LED1 | P0.1 | Running pattern LED |
+| LED2 | P0.2 | Running pattern LED |
+| LED3 | P0.3 | Running pattern LED |
+| LED4 | P0.4 | Running pattern LED |
+| LED5 | P0.5 | Running pattern LED |
+| LED6 | P0.6 | Running pattern LED |
+| LED7 | P0.7 | Running pattern LED |
+
+---
+
+### 5.3 External Interrupt Switch Configuration (Indicator Generator Node)
+| Switch | LPC2129 Pin | Description |
+|--------|-------------|-------------|
+| LEFT Indicator Switch | P0.1 (EINT0) | Generates interrupt for LEFT indicator command |
+| RIGHT Indicator Switch | P0.7 (EINT2) | Generates interrupt for RIGHT indicator command |
+
+---
+
+### 5.4 Fuel Sensor (ADC) Configuration
+| Signal | LPC2129 Pin | Description |
+|--------|-------------|-------------|
+| Fuel Sensor Output | P0.28 (AD0.1) | Analog input for fuel level measurement |
+
+---
+
+### 5.5 Accelerometer (I2C – MMA7660) Configuration
+| Signal | LPC2129 Pin | Description |
+|--------|-------------|-------------|
+| SDA | P0.3 | I2C Data line |
+| SCL | P0.2 | I2C Clock line |
+
+---
+
+### 5.6 Airbag / Status Indication LEDs
+| Device | LPC2129 Pin | Description |
+|--------|-------------|-------------|
+| Green LED | P0.21 | Normal vehicle status indication |
+| Red LED | P0.22 | Airbag / crash alert indication |
+
+---
+
+### 5.7 CAN Transmission Activity LED
+| Device | LPC2129 Pin | Description |
+|--------|-------------|-------------|
+| TX Status LED | P0.0 | Toggles during CAN message transmission |
+
+---
+
 ## 📁 Project Folder Structure
 REAL_TIME_VEHICLE_STATUS_MONITORING
 │  
