@@ -174,21 +174,17 @@ The following results were captured during real-time hardware testing of the sys
 ---
 
 ## 🧠 Complete Multi-Node Hardware Setup (LPC2129 + CAN + Sensors)
-![333](https://github.com/user-attachments/assets/d75fbf56-3d0c-40e0-896a-e142d146e0cd)
-
+<img src="https://github.com/user-attachments/assets/d75fbf56-3d0c-40e0-896a-e142d146e0cd" width="450">
 
 ---
 
 ## 💥 Airbag Detection & Indicator Status Display
-<img ![WhatsApp Image 2026-03-12 at 18 44 22](https://github.com/user-attachments/assets/fccd71b9-8d2d-4ee2-ac12-89ab2f929341)
->
+<img src="https://github.com/user-attachments/assets/fccd71b9-8d2d-4ee2-ac12-89ab2f929341" width="450">
 
 ---
 
 ## ⛽ Fuel Level Monitoring & Indicator Display Output
-<img 
-![WhatsApp Image 2026-03-12 at 18 44 23](https://github.com/user-attachments/assets/360d5646-f891-4a27-b676-451517c88a8d)
->
+<img src="https://github.com/user-attachments/assets/360d5646-f891-4a27-b676-451517c88a8d" width="450">
 
 ---
 
