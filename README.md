@@ -173,8 +173,7 @@ The following results were captured during real-time hardware testing of the sys
 
 ---
 ##  Complete Multi-Node Hardware Setup (LPC2129 + CAN + Sensors)
-
-
+<img src="OUTPUTS/finalmj.JPG" width="700">
 ---
 
 ##  Airbag Detection & Indicator Status Display
