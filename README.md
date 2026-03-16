@@ -165,7 +165,12 @@ REAL_TIME_VEHICLE_STATUS_MONITORING
 7. On sudden impact detection:
    - Airbag alert indication triggered
    - LEDs and LCD notification activated
-8. All nodes operate in **real-time super-loop architecture**
+8. All nodes operate in **real-time super-loop architecture
+
+---
+## 📊 System Block Diagram
+
+![System Block Diagram](https://raw.githubusercontent.com/Deesk45/REAL-TIME-VEHICLE-STATUS-MONITORING-USING-CAN/fab1725e3d0a23cac3afb6872076ebdf0b4df18b/OUTPUTS/blockdiagram.jpeg)
 
 ---
 ###  Hardware & Real-Time Outputs  
