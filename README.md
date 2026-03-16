@@ -1,6 +1,6 @@
-# 🚗 REAL TIME VEHICLE STATUS MONITORING USING CAN
+#  REAL TIME VEHICLE STATUS MONITORING USING CAN
 
-## 📌 Project Description
+##  Project Description
 **REAL TIME VEHICLE STATUS MONITORING USING CAN** is an embedded systems project developed using the **LPC2129 (ARM7TDMI-S)** microcontroller.  
 The system monitors **vehicle fuel level, indicator status and crash (airbag trigger) conditions** in real time using distributed nodes communicating over the **CAN Bus**.  
 
@@ -8,7 +8,7 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 
 ---
 
-## ✨ Key Features
+##  Key Features
 - CAN Bus based **multi-node communication**
 - Real-time **fuel level monitoring**
 - **Running vehicle indicator simulation** (Left / Right)
@@ -22,7 +22,7 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 
 ---
 
-## 🧰 Hardware Requirements
+##  Hardware Requirements
 | Component | Description |
 |----------|-------------|
 | Microcontroller | LPC2129 (ARM7TDMI-S) |
@@ -37,7 +37,7 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 
 ---
 
-## 💻 Software Requirements
+##  Software Requirements
 - Keil µVision IDE
 - Embedded C
 - Flash Magic (Flashing Tool)
@@ -45,25 +45,25 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 
 ---
 
-## 🔌 Functional Node Architecture
+##  Functional Node Architecture
 
-### 🚦 Indicator Generator Node
+###  Indicator Generator Node
 - Uses **External Interrupts (EINT0 / EINT2)**  
 - Sends CAN messages for:
   - LEFT indicator command
   - RIGHT indicator command  
 
-### 💡 Indicator Receiver Node
+###  Indicator Receiver Node
 - Receives CAN messages
 - Generates **running LED pattern**
 - Maintains **state machine (OFF / LEFT / RIGHT)**
 
-### ⛽ Fuel Monitoring Node
+###  Fuel Monitoring Node
 - Reads analog fuel level using **ADC**
 - Converts value to **fuel percentage**
 - Periodically transmits data on CAN Bus
 
-### 💥 Airbag Detection Node
+###  Airbag Detection Node
 - Reads acceleration data via **I2C (MMA7660)**
 - Detects sudden impact based on threshold
 - Triggers airbag alert indication
@@ -72,7 +72,7 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 
 ---
 
-## 🔌 Pin Configuration
+##  Pin Configuration
 
 ### 5.1 CAN Interface Pin Configuration
 | Signal | LPC2129 Pin | Description |
@@ -134,7 +134,7 @@ The project demonstrates **automotive embedded architecture**, modular driver de
 
 ---
 
-## 📁 Project Folder Structure
+##  Project Folder Structure
 REAL_TIME_VEHICLE_STATUS_MONITORING
 │  
 ├── can.c / can.h → CAN Driver (Init / TX / RX)  
@@ -155,7 +155,7 @@ REAL_TIME_VEHICLE_STATUS_MONITORING
 
 ---
 
-## ⚙️ System Working Flow
+##  System Working Flow
 1. System initializes CAN controller and required peripherals
 2. Indicator generator node sends commands via external interrupts
 3. Indicator receiver node creates running LED pattern
@@ -168,28 +168,28 @@ REAL_TIME_VEHICLE_STATUS_MONITORING
 8. All nodes operate in **real-time super-loop architecture**
 
 ---
-### 📸 Hardware & Real-Time Outputs  
+###  Hardware & Real-Time Outputs  
 The following results were captured during real-time hardware testing of the system.
 
 ---
-## 🧠 Complete Multi-Node Hardware Setup (LPC2129 + CAN + Sensors)
+##  Complete Multi-Node Hardware Setup (LPC2129 + CAN + Sensors)
 
 
 ---
 
-## 💥 Airbag Detection & Indicator Status Display
+##  Airbag Detection & Indicator Status Display
 <img src="https://github.com/user-attachments/assets/feec9533-ada1-4064-80cc-a94b53ea9e55" width="400">
 
 
 ---
 
-## ⛽ Fuel Level Monitoring & Indicator Display Output
+##  Fuel Level Monitoring & Indicator Display Output
 <img src="https://github.com/user-attachments/assets/f7ca3282-459b-4d12-b63a-5d60450af65e" width="400">
 
 
 ---
 
-## 🧠 Key Technical Concepts Demonstrated
+##  Key Technical Concepts Demonstrated
 - CAN Protocol Bit Timing Calculation
 - Distributed Embedded Node Architecture
 - Interrupt Driven Event Handling
@@ -200,7 +200,7 @@ The following results were captured during real-time hardware testing of the sys
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 - Dashboard display for fuel data visualization
 - CAN message filtering & priority scheduling
 - EEPROM logging of crash events
@@ -210,7 +210,7 @@ The following results were captured during real-time hardware testing of the sys
 
 ---
 
-## 🎓 Academic Context
+##  Academic Context
 This project is developed as an **Embedded Automotive Mini Project** demonstrating:
 - ARM7 microcontroller programming
 - CAN protocol implementation
@@ -220,12 +220,12 @@ This project is developed as an **Embedded Automotive Mini Project** demonstrati
 
 ---
 
-## 📜 License
+##  License
 This project is intended for **educational and academic use only**.
 
 ---
 
-## 👨‍💻 Developed By
+##  Developed By
 
 **Deepak Khaladkar**  
 Embedded Systems Trainee | E&TC Graduate  
@@ -236,7 +236,7 @@ Embedded C, ARM7 (LPC21xx), CAN Protocol, I2C, ADC, Sensor Interfacing
 **Project Type:**  
 Embedded Automotive Systems Mini Project  
 
-🚗 *Real Time Vehicle Status Monitoring – Reliable Automotive Embedded Communication*
+ *Real Time Vehicle Status Monitoring – Reliable Automotive Embedded Communication*
 
 
 
